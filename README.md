@@ -32,7 +32,7 @@ A full-stack inventory management system built with Flask (Backend) and Vue.js (
 - Flask - Python web framework
 - Flask-RESTful - REST API framework
 - Flask-JWT-Extended - JWT authentication
-- PyMySQL - MySQL database connector
+- PyTiDB - TiDB database connector
 - Flasgger - Swagger API documentation
 
 ### Frontend
@@ -43,7 +43,7 @@ A full-stack inventory management system built with Flask (Backend) and Vue.js (
 - Vuex/Pinia (State Management)
 
 ### Database
-- MySQL
+- TiDB
 
 ## Project Structure
 
@@ -65,7 +65,7 @@ inventory-management/
 
 ### Prerequisites
 - Python 3.10+
-- MySQL 5.7+
+- TiDB 6.1.0+
 - Node.js 14+
 
 ### Backend Setup
@@ -82,8 +82,8 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-3. Configure MySQL:
-- Create a MySQL database
+3. Configure TiDB:
+- Create a TiDB database
 - Update `config.py` with your database credentials
 
 4. Initialize the database:
